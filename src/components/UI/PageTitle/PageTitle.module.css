@@ -1,0 +1,17 @@
+.title {
+    color: #EBEEF5;
+    font-size: 64px;
+    line-height: 80px;
+}
+.container {
+    width: 588px;
+    margin-top: 80px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;   
+}
+.info {
+    color: #8E95A9;
+    font-size: 16px;
+
+}

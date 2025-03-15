@@ -1,0 +1,61 @@
+.card {
+    background-color: #20283E;
+    width: 282px;
+    height: 500px;
+    border-radius: 12px;
+    position: relative;
+}
+.rating {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 47px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 8px;
+    color: #FFAD49;
+}
+.rating svg {
+    color: #FFAD49;
+    margin-right: 4px;
+}
+.title{
+    color:  #EBEEF5;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-top: 16px;
+    font-weight: 400;
+}
+.images {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    max-width: 266px;
+    max-height: 400px;
+}
+.btnAdd {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.buttonCont {
+    display: flex;
+    text-align: center;
+}
+.btnAdd svg {
+    color: #7B6EF6;
+    width: 24px;
+    height: 16px;
+    margin-top: 10px;
+}
+.btnText {
+    display: inline;
+    color: #7B6EF6;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 8px;
+}

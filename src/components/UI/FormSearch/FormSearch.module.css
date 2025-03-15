@@ -1,0 +1,27 @@
+.container{
+    flex-direction: row;
+    margin-left: 120px;
+}
+.input{
+    background: transparent;
+    border: none; 
+    outline: none;
+    width: 344px;
+    height: 64px;
+    border: 2px solid #323B54;
+    border-radius: 12px;
+    background-color: #121829;
+    color: #475069;
+    font-size: 16px;
+    padding-left: 16px;
+}
+.input::placeholder{
+    color: #475069;
+    font-size: 16px;
+}
+.btn {
+    height: 64px;
+    background-color: #120F31;
+    border: none;
+    cursor: pointer;
+}
