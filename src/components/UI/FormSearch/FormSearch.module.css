@@ -21,7 +21,7 @@
 }
 .btn {
     height: 64px;
-    background-color: #120F31;
+    background:none;
     border: none;
     cursor: pointer;
 }

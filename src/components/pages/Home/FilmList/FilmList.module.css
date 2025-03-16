@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 24px;
+
 }
 .filmList {
     margin-top: 80px;
@@ -13,4 +14,11 @@
     color: #767E94;
     font-size: 32px;
     font-weight: 500;
+}
+@media (max-width: 1350px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 24px;
+    }
 }

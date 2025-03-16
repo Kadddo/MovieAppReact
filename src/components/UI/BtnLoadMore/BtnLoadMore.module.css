@@ -1,0 +1,17 @@
+.btn{
+    width: 250px;
+    height: 56px;
+    border: none;
+    border-radius: 12px;
+    background-color: #7B6EF6;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);;
+}
+.cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
