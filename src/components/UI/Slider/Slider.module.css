@@ -1,0 +1,12 @@
+.btn_slider {
+    width: 100px;
+    background: transparent;
+    border: none;
+}
+.btn_slider svg {
+    width: 100px;
+    height: 50px;
+}
+.slider{
+    display: flex;
+}

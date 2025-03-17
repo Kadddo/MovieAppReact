@@ -7,7 +7,7 @@ export default function FilmList({ filmList,onAdd,active,onClickLoadMore}) {
     <div className={css.filmList}>
         <h1 className={css.title}>All ({filmList.length})</h1>
     <div className={css.container}>
-      {filmList.map(({id,title,poster_path,vote_average}) =>{
+      {filmList.map(({id,title,poster_path,vote_average,media_type , name}) =>{
         console.log(poster_path);
         if(title !== '' && poster_path !== null){
        return <FilmCard
@@ -17,6 +17,9 @@ export default function FilmList({ filmList,onAdd,active,onClickLoadMore}) {
             vote_average={vote_average}
             active={active}
             onAdd={onAdd}
+            id = {id}
+            media_type ={media_type}
+            name = {name}
           />
         }
         return "";

@@ -1,0 +1,136 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.img_container {
+    position: relative;
+    display: flex;
+    width: 1200px;
+    height: 554px;
+    border-radius: 40px;
+    justify-content: center;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.img_container img {
+    width: 1200px;
+    height: 480px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 560px;
+    height: 144px;
+    background-color: rgba(32, 40, 62, 0.8);
+    border-radius: 24px;
+    left: 80px;
+    bottom: 0;
+}
+.title_site {
+    color: #BEB7FB;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 40px;
+}
+.title_film {
+    margin-left: 40px;
+    color: #EBEEF5;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.info_container {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.info_container img {
+    border-radius: 24px;
+    width: 480px;
+    height: 720px;
+}
+.info_text{
+    margin-left: 80px;
+}
+.info_title {
+    color: #EBEEF5;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.info_descript {
+    color: #8E95A9;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.detail {
+    display: flex;
+    flex-direction: column;
+    color: #C3C8D4;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.detail_span {
+    color: #767E94;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: #FFAD49;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 59px;
+    height: 32px;
+    border-radius: 8px;
+}
+.stars svg {
+    width: 16px;
+    height: 16px;
+}
+.video_cont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 1200px;
+}
+.video_title {
+    display: flex;
+    color: #EBEEF5;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    margin-bottom: 50px;
+    width: 1024px;
+    height: 480px;
+    margin-right: 20px;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+}
