@@ -59,6 +59,7 @@
     border-radius: 24px;
     width: 480px;
     height: 720px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 1);
 }
 .info_text{
     margin-left: 80px;
@@ -129,8 +130,12 @@
     width: 1024px;
     height: 480px;
     margin-right: 20px;
+    transition: transform 0.3s;
 }
 .videos{
     display: flex;
     flex-direction: row;
+}
+.video:hover{
+    transform: scale(1.05);
 }

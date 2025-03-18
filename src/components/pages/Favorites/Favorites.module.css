@@ -1,0 +1,11 @@
+.container {
+    width: 1920px;
+    height: 100%;
+    background: #120F31;
+    background-image: url('../../../image/bg.png');
+    background-size: 100%;
+    background-position: 50% -160px;
+    background-repeat: repeat-y;
+    margin: 0;
+    margin: auto;
+}
